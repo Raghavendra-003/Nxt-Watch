@@ -1,5 +1,5 @@
 import {Component} from 'react'
-import {Route, Switch, Redirect} from 'react-router-dom'
+import {HashRouter as Router, Route, Switch, Redirect} from 'react-router-dom'
 
 import Login from './pages/Login'
 import Home from './pages/Home'
@@ -45,6 +45,7 @@ class App extends Component {
           }}
         >
           <>
+            <Router>
             <Switch>
               <Route exact path="/login" component={Login} />
               <ProtectedRoute exact path="/" component={Home} />
@@ -63,6 +64,7 @@ class App extends Component {
               <Route path="/not-found" component={NotFound} />
               <Redirect to="/not-found" />
             </Switch>
+            </Router>
           </>
         </ThemeContext.Provider>
       </SaveContext.Provider>
