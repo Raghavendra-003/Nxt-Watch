@@ -1,10 +1,5 @@
 import {Component} from 'react'
-<<<<<<< HEAD
 import {HashRouter as Router, Route, Switch, Redirect} from 'react-router-dom'
-=======
-import {Route, Switch, Redirect} from 'react-router-dom'
->>>>>>> bfa86626421efb10b2c9a0c60aa85d6324557f96
-
 import Login from './pages/Login'
 import Home from './pages/Home'
 import Trending from './pages/Trending'
@@ -49,10 +44,7 @@ class App extends Component {
           }}
         >
           <>
-<<<<<<< HEAD
-            <Router>
-=======
->>>>>>> bfa86626421efb10b2c9a0c60aa85d6324557f96
+          <Router>
             <Switch>
               <Route exact path="/login" component={Login} />
               <ProtectedRoute exact path="/" component={Home} />
@@ -71,10 +63,7 @@ class App extends Component {
               <Route path="/not-found" component={NotFound} />
               <Redirect to="/not-found" />
             </Switch>
-<<<<<<< HEAD
-            </Router>
-=======
->>>>>>> bfa86626421efb10b2c9a0c60aa85d6324557f96
+          </Router>
           </>
         </ThemeContext.Provider>
       </SaveContext.Provider>
