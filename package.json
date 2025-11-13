@@ -1,5 +1,8 @@
 {
+<<<<<<< HEAD
   "homepage": "https://Raghavendra-003.github.io/Nxt-Watch",
+=======
+>>>>>>> bfa86626421efb10b2c9a0c60aa85d6324557f96
   "name": "nxt-watch",
   "private": true,
   "version": "1.0.0",
@@ -33,7 +36,10 @@
     "eslint-config-airbnb": "18.2.1",
     "eslint-config-prettier": "8.1.0",
     "eslint-plugin-prettier": "3.3.1",
+<<<<<<< HEAD
     "gh-pages": "6.3.0",
+=======
+>>>>>>> bfa86626421efb10b2c9a0c60aa85d6324557f96
     "husky": "4.3.8",
     "lint-staged": "10.5.4",
     "npm-run-all": "4.1.5",
@@ -41,15 +47,24 @@
     "react-scripts": "4.0.3"
   },
   "scripts": {
+<<<<<<< HEAD
+=======
+    "start": "craco start",
+    "build": "craco build",
+>>>>>>> bfa86626421efb10b2c9a0c60aa85d6324557f96
     "test": "craco test",
     "lint": "eslint .",
     "lint:fix": "eslint --fix src/",
     "format": "prettier --write \"./src\"",
+<<<<<<< HEAD
     "run-all": "npm-run-all --parallel test lint:fix",
     "build": "set NODE_OPTIONS=--openssl-legacy-provider && craco build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
 
+=======
+    "run-all": "npm-run-all --parallel test lint:fix"
+>>>>>>> bfa86626421efb10b2c9a0c60aa85d6324557f96
   },
   "lint-staged": {
     "*.js": [
@@ -82,4 +97,8 @@
       "not ie < 11"
     ]
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> bfa86626421efb10b2c9a0c60aa85d6324557f96
