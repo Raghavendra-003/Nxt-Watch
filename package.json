@@ -41,6 +41,7 @@
     "react-scripts": "4.0.3"
   },
   "scripts": {
+    "start": "set NODE_OPTIONS=--openssl-legacy-provider && craco start",
     "test": "craco test",
     "lint": "eslint .",
     "lint:fix": "eslint --fix src/",
